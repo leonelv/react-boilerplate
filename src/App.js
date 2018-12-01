@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import { Default } from './pages/default'
-import { Component } from './components/component'
+import { DefaultComponent } from './components/component'
 class App extends Component {
   render() {
-    return (
-      <Default>
-        <Component />
+    return <Default>
+        <DefaultComponent />
       </Default>
-    )
   }
 }
 
